@@ -29,7 +29,7 @@ const KakaoLink = (props) => {
 
   useEffect(() => {
     // 사용할 앱의 JavaScript 키를 설정해 주세요.
-    window.Kakao.init("1598359c558c0e811105006367eb346d");
+    window.Kakao.init("0f9d27c1e775517f907d27a058838c9f");
   }, []);
 
   const [text, setText] = useState("");
